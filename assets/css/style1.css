@@ -1,0 +1,75 @@
+/*-----------------------------------*\
+            ALEXIS MOUREY
+\*-----------------------------------*/
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  img, ion-icon, a, button, time, span {
+    display: block;
+  }
+  
+  button {
+    font: inherit;
+    background: none;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+  }
+  
+  input, textarea {
+    display: block;
+    width: 100%;
+    background: none;
+    font: inherit;
+  }
+  
+  ::selection {
+    background: #70b3ff;
+    color: #121212;
+  }
+  
+  :focus { 
+    outline-color: #70b3ff; 
+  }
+  
+  html {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    background: #121212;
+  }
+  
+  .avatar img {
+    border-radius: 50%;
+    width: 120px;
+  }
+  
+  .leftbox {
+    background: #1e1e1f;
+    border: 1px solid #70b3ff;
+    border-radius: 20px;
+    padding: 15px;
+    z-index: 1;
+  }
+
+  .leftbox-info {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px
+  }
