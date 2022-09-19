@@ -94,3 +94,9 @@ body {
   flex-direction: column;
   gap: 25px
 }
+
+.leftbox-info-content {
+  opacity: 1;
+  visibility: visible;
+  transition: 0.5s ease-in-out;
+}
