@@ -92,11 +92,25 @@ body {
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
-  gap: 25px
+  gap: 25px;
+  text-align: center;
 }
 
 .leftbox-info-content {
   opacity: 1;
   visibility: visible;
   transition: 0.5s ease-in-out;
+}
+
+.leftbox-info-content .title {
+  color: #fff;
+  background: #70b3ff;
+  font-size: 11px;
+  font-weight: 300;
+  width: max-content;
+  padding: 5px 18px;
+  border-radius: 8px;
+  margin-top: 5px;
+  margin: auto;
+  display: inline-block;
 }
