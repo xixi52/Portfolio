@@ -74,7 +74,6 @@ body {
   font-size: 11px;
   font-weight: 300;
   width: max-content;
-  padding: 3px 12px;
   border-radius: 8px;
 }
 
@@ -83,6 +82,15 @@ body {
   border: 1px solid #70b3ff;
   border-radius: 20px;
   padding: 15px;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+  box-shadow: 4px 8px 24px hsla(0, 0%, 0%, 0.25);
+  position: sticky;
+  top: 60px;
+  max-height: max-content;
+  height: 100%;
+  margin-bottom: 0;
+  padding-top: 60px;
   z-index: 1;
 }
 
