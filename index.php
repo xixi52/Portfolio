@@ -1,3 +1,4 @@
+<?php $page = "infos"; ?>
 <!DOCTYPE html>
 <html lang="en">
 
