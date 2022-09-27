@@ -17,10 +17,16 @@
 
     <!-- DEBUT LEFTBOX -->
 <?php include "includes/leftbox.php"; ?>
+
     <!-- FIN LEFTBOX -->
 
     <!-- DEBUT CONTENT -->
     <div class="main-content">
+
+      <!-- DEBUT NAVBAR -->
+<?php include "includes/navbar.php"; ?>
+
+      <!-- FIN NAVBAR -->
 
     </div>
     <!-- FIN CONTENT -->
