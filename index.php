@@ -29,6 +29,15 @@
 
       <!-- FIN NAVBAR -->
 
+      <!-- DEBUT ARTICLE PAGE -->
+      <article>
+
+
+
+      </article>
+      <!-- FIN ARTICLE PAGE -->
+
+
     </div>
     <!-- FIN CONTENT -->
 

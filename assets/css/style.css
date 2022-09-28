@@ -95,7 +95,7 @@ body {
   border-radius: 8px;
 }
 
-.leftbox {
+.leftbox, article {
   background: #171717;
   border: 1px solid #70b3ff;
   border-radius: 20px;
@@ -256,7 +256,6 @@ body {
   width: max-content;
   padding: 0 20px;
   background: hsla(240, 1%, 17%, 0.75);
-  backdrop-filter: blur(10px);
   border: 1px solid #70b3ff;
   border-radius: 0 20px;
   box-shadow: 0 16px 30px hsla(0, 0%, 0%, 0.25);
@@ -289,4 +288,10 @@ body {
 
 .navbar-link {
   font-weight: 500;
+}
+
+article {
+  min-height: 100%;
+  display: block;
+  animation: fade 0.5s ease backwards;
 }
