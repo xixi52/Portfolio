@@ -16,6 +16,26 @@ main {
   align-items: stretch;
   gap: 25px;
   margin-top: 60px;
+  margin-bottom: 25px;
+}
+
+footer {
+  background: #171717;
+  border: 1px solid #70b3ff;
+  border-radius: 20px;
+  padding: 15px;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+  box-shadow: 4px 8px 24px hsl(0deg 0% 0% / 25%);
+  position: sticky;
+  max-height: max-content;
+  z-index: 1;
+  max-width: 1200px;
+  margin-inline: auto;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 25px;
   margin-bottom: 60px;
 }
 

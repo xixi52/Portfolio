@@ -42,5 +42,7 @@
     <!-- FIN CONTENT -->
 
   </main>
+  <footer>
+  </footer>
 </body>
 </html>
