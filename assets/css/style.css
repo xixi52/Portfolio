@@ -32,11 +32,23 @@ footer {
   z-index: 1;
   max-width: 1200px;
   margin-inline: auto;
-  display: flex;
-  justify-content: center;
-  align-items: stretch;
   gap: 25px;
   margin-bottom: 60px;
+}
+
+footer p {
+  color: #fafafa;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 14px;
+  margin-right: 12px;
+}
+
+footer p i {
+  color: #70b3ff;
+  margin-left: 5px;
+  margin-top: 2px;
+  font-size: 16px;
 }
 
 .main-content {

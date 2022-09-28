@@ -42,7 +42,11 @@
     <!-- FIN CONTENT -->
 
   </main>
-  <footer>
-  </footer>
+
+  <!-- DEBUT FOOTER -->
+<?php include "includes/footer.php"; ?>
+
+  <!-- FIN FOOTER -->
+
 </body>
 </html>
