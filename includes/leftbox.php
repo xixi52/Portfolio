@@ -1,4 +1,4 @@
-    <aside class="leftbox">
+    <aside id="leftbox" class="leftbox">
       <div class="leftbox-info">
         <div class="avatar">
           <img src="./assets/images/me.jpg" alt="Mourey Alexis" width="80">
@@ -7,6 +7,10 @@
           <h1 class="name" title="Mourey Alexis">Mourey Alexis</h1>
           <span class="title">Développeur Fullstack</span>
         </div>
+        <button id="expand-info" class="info-more-btn">
+          <span>Voir +</span>
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
       </div>
       <div class="leftbox-info-more">
         <div class="separator"></div>
