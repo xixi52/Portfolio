@@ -1,4 +1,4 @@
-<?php $page = "infos"; ?>
+<?php $page = "contact"; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -33,7 +33,7 @@
       <article>
 
         <header>
-          <h2 class="h2 article-title">Infos</h2>
+          <h2 class="h2 article-title">Contact</h2>
         </header>
 
       </article>
