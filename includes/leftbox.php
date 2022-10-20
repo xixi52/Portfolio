@@ -1,7 +1,7 @@
     <aside id="leftbox" class="leftbox">
       <div class="leftbox-info">
         <div class="avatar">
-          <img src="./assets/images/me.jpg" alt="Mourey Alexis" width="80">
+          <img src="/assets/images/me.jpg" alt="Mourey Alexis" width="80">
         </div>
         <div class="leftbox-info-content">
           <h1 class="name" title="Mourey Alexis">Mourey Alexis</h1>

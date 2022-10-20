@@ -113,6 +113,24 @@ article {
     border-radius: 8px;
 }
 
+.subtitle a {
+    color: #e9e9e9;;
+}
+
+.subtitle a:hover {
+    color: #70b3ff;
+}
+
+.subtitle {
+    display: flex;
+}
+
+.subtitle span {
+    font-size: 15px;
+    padding-top: 18px;
+    padding-left: 5px;
+}
+
 .contact-list {
     display: grid;
     grid-template-columns: 1fr;
