@@ -79,7 +79,7 @@ article {
 }
   
 .leftbox.active {
-    max-height: 405px;
+    max-height: 600px;
 }
 
 .leftbox.active .leftbox-info-content {
