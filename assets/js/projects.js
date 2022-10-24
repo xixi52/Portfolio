@@ -10,8 +10,8 @@ select.addEventListener("click", function () { elementToggleFunc(this); });
 for (let i = 0; i < selectItems.length; i++) {
   selectItems[i].addEventListener("click", function () {
 
-    let selectedValue = this.innerText.toLowerCase();
-    selectValue.innerText = this.innerText;
+    let selectedValue = $(this).attr("data-select-id");
+    selectValue.innerText = $(this).attr("data-select-id");
     elementToggleFunc(select);
     filterFunc(selectedValue);
 
@@ -42,8 +42,8 @@ for (let i = 0; i < filterBtn.length; i++) {
 
   filterBtn[i].addEventListener("click", function () {
 
-    let selectedValue = this.innerText.toLowerCase();
-    selectValue.innerText = this.innerText;
+    let selectedValue = $(this).attr("data-select-id");
+    selectValue.innerText = $(this).attr("data-select-id");
     filterFunc(selectedValue);
 
     lastClickedBtn.classList.remove("active");

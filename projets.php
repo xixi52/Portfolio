@@ -42,13 +42,13 @@
 
           <ul class="filter-list">
             <li class="filter-item">
-              <button class="active" data-filter-btn="">Tous</button>
+              <button class="active" data-filter-btn="" data-select-id="tous">Tous</button>
             </li>
             <li class="filter-item">
-              <button data-filter-btn="">Web</button>
+              <button data-filter-btn="" data-select-id="web">Web</button>
             </li>
             <li class="filter-item">
-              <button data-filter-btn="">Modules</button>
+              <button data-filter-btn="" data-select-id="modules">Modules</button>
             </li>
           </ul>
 
@@ -63,13 +63,13 @@
 
             <ul class="select-list">
               <li class="select-item">
-                <button data-select-item="">Tous</button>
+                <button data-select-item="" data-select-id="tous">Tous</button>
               </li>
               <li class="select-item">
-                <button data-select-item="">Web</button>
+                <button data-select-item="" data-select-id="web">Web</button>
               </li>
               <li class="select-item">
-                <button data-select-item="">Modules</button>
+                <button data-select-item="" data-select-id="modules">Modules</button>
               </li>
             </ul>
           </div>
