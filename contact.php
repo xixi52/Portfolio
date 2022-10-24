@@ -8,6 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Alexis Mourey</title>
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/contact.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
@@ -35,6 +36,14 @@
         <header>
           <h2 class="h2 article-title">Contact</h2>
         </header>
+
+        <section class="google-map">
+          <figure>
+            <iframe
+              src="https://maps.google.com/maps?q=51000%20Ch%C3%A2lons-en-Champagne,%20France&t=&z=12&ie=UTF8&iwloc=&output=embed"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
 
       </article>
       <!-- FIN ARTICLE PAGE -->
