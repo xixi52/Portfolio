@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{REQUEST_URI} ^/ip-calculator [NC]
+RewriteRule (.*) https://ip-calculator.mourey.dev [R=301,L]
