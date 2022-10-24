@@ -121,7 +121,6 @@
 }
 
 .project-item > a:hover .project-item-icon-box {
-  --scale: 1;
   opacity: 1;
 }
 
@@ -145,6 +144,38 @@
   line-height: 1.3;
 }
 
+.link-project {
+  color: #e9e9e9;
+  display: contents;
+}
+
+.link-project:hover {
+  color: #70b3ff;
+}
+
+.h1-link-project {
+  margin-top: 5px;
+}
+
+.img-example {
+  width: 100%;
+  padding: 0px 20px 0px 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.project-text {
+  color: hsl(0, 0%, 84%);
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 20px;
+  line-height: 1.6;
+}
+
+.project-text p { 
+  margin-bottom: 15px;
+}
+
 .project-category {
   color: hsla(0, 0%, 84%, 0.7);
   font-size: 15px;
@@ -163,7 +194,11 @@
     .filter-select-box {
         display: none;
     }
-   
+
+    .about-text {
+      margin-bottom: 40px; 
+    }
+
     .filter-list {
         display: flex;
         justify-content: flex-start;
