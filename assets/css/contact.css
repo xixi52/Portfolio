@@ -20,9 +20,17 @@
     filter: grayscale(1) invert(1);
 }
 
+iframe {
+    background-image: url("/assets/images/loading.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
 @media (min-width: 580px) {
     .google-map {
         height: 380px;
         border-radius: 18px;
       }
 }
+  
