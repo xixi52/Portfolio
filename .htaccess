@@ -15,3 +15,8 @@ RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
 RewriteRule ^ /%1 [NC,L,R]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
+## REDIRECT IP ADRESS TO DOMAIN ##
+RewriteCond %{HTTP_HOST} ^185\.216\.25\.185$ [NC,OR]
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://alexis.mourey.dev/$1 [R=301,L]
