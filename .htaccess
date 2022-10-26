@@ -1,3 +1,11 @@
 RewriteEngine On
+
+## PROJECTS REDIRECTIONS ##
 RewriteCond %{REQUEST_URI} ^/ip-calculator [NC]
 RewriteRule (.*) https://ip-calculator.mourey.dev [R=301,L]
+
+## REMOVE ALL .php EXTENSIONS ##
+RewriteCond %{THE_REQUEST} /([^.]+)\.php [NC]
+RewriteRule ^ /%1 [NC,L,R]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]

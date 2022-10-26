@@ -77,7 +77,7 @@
           <ul class="project-list">
 
           <li class="project-item active" data-filter-item="" data-category="web">
-              <a href="projet/ip-calculator.php">
+              <a href="projet/ip-calculator">
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <i class="fa-regular fa-eye"></i>
